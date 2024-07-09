@@ -27,9 +27,9 @@ function Userform() {
     ani: {
       y: 0,
       transition: {
-        type: 'spring',
-        damping:1,
-        stiffness:50,
+        type: "spring",
+        damping: 1,
+        stiffness: 50,
         repeat: Infinity,
         repeatDelay: 0.2,
         repeatType: "reverse",
@@ -296,7 +296,7 @@ function Userform() {
           </SkeletonTheme>
         </div>
       ) : (
-          <Table data={inp} />
+        <Table data={inp} />
       )}
     </div>
   );
